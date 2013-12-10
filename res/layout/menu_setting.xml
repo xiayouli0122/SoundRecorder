@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/format_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_set_format"
+        android:background="#4d4d4d"
+        />
+
+    <ListView
+        android:id="@+id/format_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+    
+    <!-- added by yuri.xia for cr0000144 begin -->
+    <TextView 
+        android:id="@+id/dir_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_set_directory"
+        android:background="#4d4d4d"
+        />
+
+    <ListView
+        android:id="@+id/dir_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+	<!-- added by yuri.xia for cr0000144 end -->
+
+</LinearLayout>
