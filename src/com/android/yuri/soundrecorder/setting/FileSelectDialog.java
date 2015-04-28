@@ -30,7 +30,7 @@ import android.widget.Toast;
 /**
  * 文件夹选择对话框
  * @author xiayouli
- * @deprecated 允许用户设置指定路径保存录音文件 
+ * 允许用户设置指定路径保存录音文件 
  */
 public class FileSelectDialog extends ListActivity implements OnClickListener{
 	private static final String TAG = "FileDialog";

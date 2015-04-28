@@ -44,7 +44,7 @@ public class RecorderList extends ListActivity implements OnItemClickListener, M
 		MediaStore.Audio.Media._ID,
 		MediaStore.Audio.Media.DURATION,MediaColumns.DATA,
 		MediaStore.Audio.Media.TITLE, MediaStore.Audio.Media.SIZE,
-		MediaStore.Audio.Media.ARTIST
+		MediaStore.Audio.Media.ARTIST,MediaStore.Audio.Media.DISPLAY_NAME
 	};
 	
 	protected void onCreate(android.os.Bundle savedInstanceState) {

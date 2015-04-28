@@ -97,7 +97,8 @@ public class RecorderListAdapter extends CursorAdapter {
 		TextView dateView = (TextView) view.findViewById(R.id.tv_date);
 		TextView sizeView = (TextView) view.findViewById(R.id.tv_size);
 		
-		String name = cursor.getString(cursor.getColumnIndex(MediaColumns.TITLE));
+//		String name = cursor.getString(cursor.getColumnIndex(MediaColumns.TITLE));
+		String name = cursor.getString(cursor.getColumnIndex(MediaColumns.DISPLAY_NAME));
 		long time = cursor.getLong(cursor.getColumnIndex(MediaStore.Audio.Media.DURATION));
 		String artist = cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.ARTIST));
 		long size = cursor.getLong(cursor.getColumnIndex(MediaStore.Audio.Media.SIZE));
